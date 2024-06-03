@@ -14,3 +14,11 @@ productContainers.forEach((item, i) => {
         item.scrollLeft -= containerWidth;
     })
 })
+
+// LEFT IMAGE SLIDER
+function changeImage(imageSrc) {
+    document.getElementById('mainImage').src = imageSrc;
+}
+
+
+

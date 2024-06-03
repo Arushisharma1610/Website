@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <div>
+    <div class="web">
         <div class="cnt">
             <div class="text-content">
                 <h2 class="award">AWARD WINNING</h2>
@@ -32,8 +33,13 @@
 
         <section class="product"> 
             <h2 class="product-category">What we do</h2>
-            <button class="pre-btn"><img src="images/arrow.png" alt=""></button>
-            <button class="nxt-btn"><img src="images/arrow.png" alt=""></button>
+            <h1 class="product-heading1">SERVICES PROVIDE</h1>
+            <h1 class="product-heading1">FOR YOU</h1>
+            <p class="product-para">Morbi sed lacus nec risus finibus feugiat at fermentum nibh. Pellentesque vitae ante at elit fringilla ac at purus. 
+                Morbi sed lacus nec risus finibus feugiat at fermentum.
+            </p>
+            <button class="pre-btn"><img src="assest/images/arrow.png" alt=""></button>
+            <button class="nxt-btn"><img src="assest/images/arrow.png" alt=""></button>
             <div class="product-container">
                 <div class="product-card">
                     <div class="product-image">
@@ -221,7 +227,94 @@
                 </div>
             </div>
         </section>
+ 
+        <!-- IMAGE Tab change -->
+        <div class="page3">
+            <p class="why-chooseUS">WHY CHOOSE US</p>
+            <h2 class="page3-h2">WHY WE ARE BEST</h2>
+            <div class="choose-us">
+                <div class="choos-layer">
+                    <i class="fa-brands fa-empire"></i>
+                    <h4>Clarified Vision & Tager</h4>
+                    <p>
+                        lohgtvuu jhiyi kjnb jhby jnhnuiby jbku
+                    </p>
+                </div>
+                <div class="choos-layer">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <h4>High Performance</h4>
+                    <p>
+                        lohgtvuu jhiyi kjnb jhby jnhnuiby jbku
+                    </p>
+                </div>
+                <div class="choos-layer">
+                    <i class="fa-brands fa-empire"></i>
+                    <h4>Maintain Security</h4>
+                    <p>
+                        lohgtvuu jhiyi kjnb jhby jnhnuiby jbku
+                    </p>
+                </div>
+                <div class="choos-layer">
+                    <i class="fa-brands fa-empire"></i>
+                    <h4 class="h4">Better Stretegy & Quality</h4>
+                    <p>
+                        lohgtvuu jhiyi kjnb jhby jnhnuiby jbku
+                    </p>
+                </div>
+            </div>
+
+            <div class="custom-container">
+                <div class="image-section">
+                    <img id="mainImage" src="assest/images/card10.jpg" alt="Main Image">
+                </div>
+                <div class="content-section">
+                    <div class="content" onclick="changeImage('assest/images/card1.jpg')">
+                        <h2>Genderless Kei - Japan's Hot</h2>
+                        <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of...</p>
+                    </div>
+                    <div class="content" onclick="changeImage('assest/images/card3.jpg')">
+                        <h2>Better Strategy & Quality</h2>
+                        <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of...</p>
+                    </div>
+                    <div class="content" onclick="changeImage('assest/images/card4.jpg')">
+                        <h2>Genderless Kei - Japan's Hot</h2>
+                        <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <!-- Fotter -->
+       
+
+        <div class="stats-container">
+            <p class="stats-para">EXPERT GROWTH</p>
+            <h2>Our Company Growth</h2>
+            <div class="stats">
+              <div class="stat">
+                <i class="fas fa-user" style="color: red"></i>
+                <p>199+</p>
+                <span>Experts</span>
+              </div>
+              <div class="stat">
+                <i class="fas fa-trophy" style="color: red;"></i>
+                <p>1591+</p>
+                <span>Days of Operation</span>
+              </div>
+              <div class="stat">
+                <i class="fas fa-award" style="color: red;"></i>
+                <p>283+</p>
+                <span>Win Awards</span>
+              </div>
+              <div class="stat">
+                <i class="fas fa-check-circle" style="color: red;"></i>
+                <p>75+</p>
+                <span>Complete Project</span>
+              </div>
+            </div>
+          </div>
 
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
